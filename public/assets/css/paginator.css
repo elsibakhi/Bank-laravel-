@@ -1,0 +1,29 @@
+.page-link {
+
+  
+    color: #2f323e;
+
+font-weight: 600;
+    border: 1px solid #e4e7ea;
+
+}
+
+.page-link:hover {
+  background-color: #2f323e;
+    color: white;
+
+}
+
+.page-item.active .page-link {
+
+    background-color: #2f323e;
+    border-color: #2f323e;
+}
+
+
+.page-item.disabled .page-link {
+    color: #2f323e;
+opacity: 0.5;
+}
+
+
